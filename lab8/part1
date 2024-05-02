@@ -1,0 +1,11 @@
+#!/bin/python3
+def throw_me_an_error():
+    val1 = 14
+    val2 = 0
+    try:
+        dividend = val1 / val2
+        return dividend
+    except Exception as e:
+        print("Sorry, we could not fulfill your request. Error type =", e)
+
+throw_me_an_error()
